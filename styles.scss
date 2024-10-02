@@ -1,0 +1,47 @@
+/* Setjum inn „reset“ sem fjarlægir margin og padding af öllu */
+@import './styles/reset';
+@import './styles/bases';
+@import './styles/root';
+@import './styles/fonts';
+
+/** Lætur myndir aldrei taka meira pláss en foreldri skilgreinir **/
+
+/** Almennt takka útlit, getur virkað á bæði <a> og <button> **/
+@import './styles/button';
+
+/* Fade in animation */
+
+/* Til að transition sé ekki frá hvítum */
+
+@import './styles/wrapper';
+
+/* Það sem fylgir er tillaga að uppbyggingu á selectorum fyrir verkefnið */
+
+/** Haus á síðum **/
+
+@import './styles/headnav';
+
+/** Meginmál og efni forsíðu **/
+
+@import './styles/megin';
+
+/** Cards **/
+
+@import './styles/cards';
+
+/** Card **/
+
+@import './styles/card';
+
+/** Fótur **/
+
+@import './styles/footer';
+
+/** Spilasíða, töflustílar **/
+
+/* Leyfir skroll á töflu ef pláss er ekki nóg til að birta hana alla lárétt */
+@import './styles/table';
+
+/** Viðburðir **/
+
+@import './styles/vidburdir';
